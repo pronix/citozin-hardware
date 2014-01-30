@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: OBDII-Ist.PcbDoc   20.12.2013  2:00:51
+---------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : OBDII-Ist-RoundHoles.TXT
+ASCII SlotHoles File : OBDII-Ist-SlotHoles.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        19.7mil (0.50038mm)      Round          2                1.04 Inch (26.31 mm)
+T2        23.6mil (0.59944mm)      Round          1                0.00 Inch (0.00 mm)
+T3        27.6mil (0.70104mm)      Round          38               7.80 Inch (198.19 mm)
+T4        28mil (0.7112mm)         Round          6                1.95 Inch (49.53 mm)
+T5        35.4mil (0.89916mm)      Round          40               6.46 Inch (163.98 mm)
+T6        39.4mil (1.00076mm)      Slot           16               285.76 Inch (7258.28 mm)
+---------------------------------------------------------------------------
+Totals                                            103              303.00 Inch (7696.28 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

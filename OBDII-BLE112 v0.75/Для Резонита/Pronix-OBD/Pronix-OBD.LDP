@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\BLE\Documentations\Altum Designer\BLE112\OBDII-Ist.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=obdii-ist-roundholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=obdii-ist-slotholes.txt|LayerPairs=gtl,gbl
