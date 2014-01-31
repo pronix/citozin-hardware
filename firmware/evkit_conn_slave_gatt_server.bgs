@@ -9,10 +9,6 @@ dim out_len
 event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     
     endpoint = system_endpoint_uart1
-	call system_endpoint_tx(endpoint, 11, "ATPP0CSV45\n")
-	call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	call system_endpoint_tx(endpoint, 3, "ATZ\n")
-	call system_reg_write($70fa, 216)
     call system_endpoint_set_watermarks(endpoint, 0, 0) # disable watermarks
 	#call gap_set_adv_parameters(32,48,7)
 	call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
@@ -21,7 +17,10 @@ end
 
 #event connection_status(connection, flags, address, address_type, conn_interval, timeout, latency, bonding)
     
- #   call system_endpoint_tx(endpoint, 17, "\n\r++ Connected ++")
+    #call system_endpoint_tx(endpoint, 11, "ATPP0CSV45\n")
+	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
+	#call system_endpoint_tx(endpoint, 3, "ATZ\n")
+	#call system_reg_write($70fa, 216)
     
 #end
 
@@ -82,9 +81,10 @@ event attclient_indicated(connection, attrhandle)
 end
 
 event connection_disconnected(conn, reas)
-    call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
-	call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	call system_endpoint_tx(endpoint, 3, "ATZ\n")
+    #call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
+	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
+	#call system_endpoint_tx(endpoint, 3, "ATZ\n")
+	#call system_reg_write($70fa, 59)
     #call system_endpoint_tx(endpoint, 22, "\n\n\r-- Disconnected --\n")
     call system_endpoint_set_watermarks(endpoint, 0, 0) # disable watermarks
     #call gap_set_adv_data(32,48,7)
