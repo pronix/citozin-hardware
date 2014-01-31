@@ -82,7 +82,9 @@ event attclient_indicated(connection, attrhandle)
 end
 
 event connection_disconnected(conn, reas)
-    
+    call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
+	call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
+	call system_endpoint_tx(endpoint, 3, "ATZ\n")
     #call system_endpoint_tx(endpoint, 22, "\n\n\r-- Disconnected --\n")
     call system_endpoint_set_watermarks(endpoint, 0, 0) # disable watermarks
     #call gap_set_adv_data(32,48,7)
