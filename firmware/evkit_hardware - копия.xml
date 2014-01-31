@@ -6,5 +6,5 @@
     <sleep enable="false" />
     <txpower power="15" bias="5" />
     <script enable="true" />
-    <usart channel="1" baud="4800" alternate="1" endpoint="none" mode="uart" flow="false"/>
+    <usart channel="1" baud="38400" alternate="1" endpoint="none" mode="uart" flow="false"/>
 </hardware>
