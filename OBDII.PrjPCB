@@ -2,7 +2,7 @@
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
-OutputPath=
+OutputPath=Project Outputs for OBDII
 LogFolderPath=
 ReleasesFolder=
 ReleaseVaultGUID=
@@ -168,71 +168,83 @@ DocumentPath=Project Outputs for OBDII\OBDII-Ist-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.DRR
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.BOM
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.EXTREP
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.CSV
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBL
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBO
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBP
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBS
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM1
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM2
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM13
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM15
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTL
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTO
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTP
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTS
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.LDP
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for OBDII\OBDII-Ist.REP
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for OBDII\OBDII-Ist.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for OBDII\OBDII-Ist.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for OBDII\OBDII.xls
 DItemRevisionGUID=
 
 [PCBConfiguration1]
@@ -535,79 +547,79 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Foxit Reader PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=Drill
-OutputName1=Drill Drawing/Guides
+OutputType1=ODB
+OutputName1=ODB++ Files
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.14|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
-Configuration1_Name2=OutputConfigurationParameter2
-Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Drill Drawing For (Bottom,Top)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration1_Name3=OutputConfigurationParameter3
-Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration1_Name4=OutputConfigurationParameter4
-Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration1_Name5=OutputConfigurationParameter5
-Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration1_Name6=OutputConfigurationParameter6
-Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration1_Name7=OutputConfigurationParameter7
-Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration1_Name8=OutputConfigurationParameter8
-Configuration1_Item8=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=1|Mirror=False|Name=Drill Guide For (Bottom,Top)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration1_Name9=OutputConfigurationParameter9
-Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration1_Name10=OutputConfigurationParameter10
-Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration1_Name11=OutputConfigurationParameter11
-Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration1_Name12=OutputConfigurationParameter12
-Configuration1_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-Configuration1_Name13=OutputConfigurationParameter13
-Configuration1_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
-OutputType2=Mask
-OutputName2=Solder/Paste Mask Prints
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType3=Final
-OutputName3=Final Artwork Prints
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=Test Points
+OutputName3=Test Point Report
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType4=CompositeDrill
-OutputName4=Composite Drill Drawing
+OutputType4=Plane
+OutputName4=Power-Plane Prints
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType5=NC Drill
-OutputName5=NC Drill Files
+OutputType5=Mask
+OutputName5=Solder/Paste Mask Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
-OutputType6=ODB
-OutputName6=ODB++ Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType6=Drill
+OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
-OutputVariantName6=[No Variations]
+OutputVariantName6=
 OutputDefault6=0
-OutputType7=Plane
-OutputName7=Power-Plane Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.14|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration6_Name2=OutputConfigurationParameter2
+Configuration6_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Drill Drawing For (Bottom,Top)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration6_Name3=OutputConfigurationParameter3
+Configuration6_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration6_Name4=OutputConfigurationParameter4
+Configuration6_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration6_Name5=OutputConfigurationParameter5
+Configuration6_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration6_Name6=OutputConfigurationParameter6
+Configuration6_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration6_Name7=OutputConfigurationParameter7
+Configuration6_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration6_Name8=OutputConfigurationParameter8
+Configuration6_Item8=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=1|Mirror=False|Name=Drill Guide For (Bottom,Top)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration6_Name9=OutputConfigurationParameter9
+Configuration6_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=BottomLayer|DLayer2=TopLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration6_Name10=OutputConfigurationParameter10
+Configuration6_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration6_Name11=OutputConfigurationParameter11
+Configuration6_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration6_Name12=OutputConfigurationParameter12
+Configuration6_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+Configuration6_Name13=OutputConfigurationParameter13
+Configuration6_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer
+OutputType7=CompositeDrill
+OutputName7=Composite Drill Drawing
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
-OutputType8=Test Points
-OutputName8=Test Point Report
+OutputType8=Final
+OutputName8=Final Artwork Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
 OutputType9=Gerber
 OutputName9=Gerber Files
 OutputDocumentPath9=
@@ -659,6 +671,8 @@ OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
 OutputType6=SinglePinNetReporter
 OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
@@ -1296,58 +1310,70 @@ ComponentUpdate24=0
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=OBDII-components.SchLib
-ComponentDesignItemID25=LM317LBDG
-ComponentSymbolReference25=LM317LBDG
+ComponentDesignItemID25=Jumper
+ComponentSymbolReference25=Jumper
 ComponentUpdate25=0
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=OBDII-components.SchLib
-ComponentDesignItemID26=M52-040023V2045
-ComponentSymbolReference26=M52-040023V2045
+ComponentDesignItemID26=LM317LBDG
+ComponentSymbolReference26=LM317LBDG
 ComponentUpdate26=0
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=OBDII-components.SchLib
-ComponentDesignItemID27=MCP2551-I/SN
-ComponentSymbolReference27=MCP2551-I/SN
-ComponentUpdate27=0
+ComponentDesignItemID27=M52-040023V2045
+ComponentSymbolReference27=M52-040023V2045
+ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=OBDII-components.SchLib
-ComponentDesignItemID28=MMBT3904L
-ComponentSymbolReference28=MMBT3904L
+ComponentDesignItemID28=M52-040023V2045_hols
+ComponentSymbolReference28=M52-040023V2045_hols
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=OBDII-components.SchLib
-ComponentDesignItemID29=MMBT3906L
-ComponentSymbolReference29=MMBT3906L
-ComponentUpdate29=1
+ComponentDesignItemID29=MCP2551-I/SN
+ComponentSymbolReference29=MCP2551-I/SN
+ComponentUpdate29=0
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
 ComponentLibraryIdentifier30=OBDII-components.SchLib
-ComponentDesignItemID30=MMSD4148T1G
-ComponentSymbolReference30=MMSD4148T1G
+ComponentDesignItemID30=MMBT3904LT1G
+ComponentSymbolReference30=MMBT3904LT1G
 ComponentUpdate30=0
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=OBDII-components.SchLib
-ComponentDesignItemID31=OBDII_DEV-09911
-ComponentSymbolReference31=OBDII_DEV-09911
+ComponentDesignItemID31=MMBT3906LT1G
+ComponentSymbolReference31=MMBT3906LT1G
 ComponentUpdate31=0
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=OBDII-components.SchLib
-ComponentDesignItemID32=TXB0102DCUR
-ComponentSymbolReference32=TXB0102DCUR
+ComponentDesignItemID32=MMSD4148T1G
+ComponentSymbolReference32=MMSD4148T1G
 ComponentUpdate32=0
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=OBDII-components.SchLib
-ComponentDesignItemID33=UA78M05CDCYR
-ComponentSymbolReference33=UA78M05CDCYR
+ComponentDesignItemID33=OBDII_DEV-09911
+ComponentSymbolReference33=OBDII_DEV-09911
 ComponentUpdate33=0
 ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=OBDII-components.SchLib
+ComponentDesignItemID34=TXB0102DCUR
+ComponentSymbolReference34=TXB0102DCUR
+ComponentUpdate34=0
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=OBDII-components.SchLib
+ComponentDesignItemID35=UA78M05CDCYR
+ComponentSymbolReference35=UA78M05CDCYR
+ComponentUpdate35=0
+ComponentIsDeviceSheet35=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1376,42 +1402,44 @@ ParameterName6=Current
 ParameterUpdate6=1
 ParameterName7=Description
 ParameterUpdate7=1
-ParameterName8=LatestRevisionNote
+ParameterName8=LatestRevisionDate
 ParameterUpdate8=1
-ParameterName9=LeadFree
+ParameterName9=LatestRevisionNote
 ParameterUpdate9=1
-ParameterName10=Library Reference
+ParameterName10=LeadFree
 ParameterUpdate10=1
-ParameterName11=Manufacturer
+ParameterName11=Library Reference
 ParameterUpdate11=1
-ParameterName12=Note
+ParameterName12=Manufacturer
 ParameterUpdate12=1
-ParameterName13=PackageDescription
+ParameterName13=Note
 ParameterUpdate13=1
-ParameterName14=PackageReference
+ParameterName14=PackageDescription
 ParameterUpdate14=1
-ParameterName15=PartNumber
+ParameterName15=PackageReference
 ParameterUpdate15=1
-ParameterName16=Published
+ParameterName16=PartNumber
 ParameterUpdate16=1
-ParameterName17=Publisher
+ParameterName17=Published
 ParameterUpdate17=1
-ParameterName18=RoHS
+ParameterName18=Publisher
 ParameterUpdate18=1
-ParameterName19=Site
+ParameterName19=RoHS
 ParameterUpdate19=1
-ParameterName20=Status
+ParameterName20=Site
 ParameterUpdate20=1
-ParameterName21=Supplier 1
+ParameterName21=Status
 ParameterUpdate21=1
-ParameterName22=Supplier Part Number 1
+ParameterName22=Supplier 1
 ParameterUpdate22=1
-ParameterName23=TargetLibrary
+ParameterName23=Supplier Part Number 1
 ParameterUpdate23=1
-ParameterName24=Type
+ParameterName24=TargetLibrary
 ParameterUpdate24=1
-ParameterName25=Value
+ParameterName25=Type
 ParameterUpdate25=1
+ParameterName26=Value
+ParameterUpdate26=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -1454,51 +1482,57 @@ ModelType12=PCBLIB
 ModelName12=HC-49/US
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=LED-0805
+ModelName13=Jumper
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=M52-040023V2045
+ModelName14=LED-0805
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=SMA,2.8mm
+ModelName15=M52-040023V2045
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=SOD123
+ModelName16=M52-040023V2045_hols
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SOIC-28N
+ModelName17=SMA,2.8mm
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=SOIC8N
+ModelName18=SOD123
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=SOT223_L
+ModelName19=SOIC-28N
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=SOT23
+ModelName20=SOIC8N
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=TXB0102DCUR
+ModelName21=SOT223_L
 ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=SOT23
+ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=TXB0102DCUR
+ModelUpdate23=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType22=SI
-ModelName22=Cap Semi
-ModelUpdate22=1
-ModelType23=SI
-ModelName23=Connector
-ModelUpdate23=1
 ModelType24=SI
-ModelName24=Res
+ModelName24=Cap Semi
 ModelUpdate24=1
+ModelType25=SI
+ModelName25=Connector
+ModelUpdate25=1
+ModelType26=SI
+ModelName26=Res
+ModelUpdate26=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType25=SIM
-ModelName25=CAP
-ModelUpdate25=1
-ModelType26=SIM
-ModelName26=RESISTOR
-ModelUpdate26=1
+ModelType27=SIM
+ModelName27=CAP
+ModelUpdate27=1
+ModelType28=SIM
+ModelName28=RESISTOR
+ModelUpdate28=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
