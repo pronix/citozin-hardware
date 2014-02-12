@@ -19,7 +19,7 @@ event connection_status(connection, flags, address, address_type, conn_interval,
     
     #call system_endpoint_tx(endpoint, 11, "ATPP0CSV45\n")
 	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	call system_endpoint_tx(endpoint, 4, "ATZ\n")
+	call system_endpoint_tx(endpoint, 3, "ATZ\r")
 	
 end
 
@@ -82,7 +82,7 @@ end
 event connection_disconnected(conn, reas)
     #call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
 	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	call system_endpoint_tx(endpoint, 5, "ATLP\n")
+	call system_endpoint_tx(endpoint, 5, "ATLP\r")
 	#call system_reg_write($70fa, 59)
     #call system_endpoint_tx(endpoint, 22, "\n\n\r-- Disconnected --\n")
     call system_endpoint_set_watermarks(endpoint, 0, 0) # disable watermarks
