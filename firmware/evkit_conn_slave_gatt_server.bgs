@@ -15,14 +15,13 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
     
 end
 
-#event connection_status(connection, flags, address, address_type, conn_interval, timeout, latency, bonding)
+event connection_status(connection, flags, address, address_type, conn_interval, timeout, latency, bonding)
     
     #call system_endpoint_tx(endpoint, 11, "ATPP0CSV45\n")
 	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	#call system_endpoint_tx(endpoint, 3, "ATZ\n")
-	#call system_reg_write($70fa, 216)
-    
-#end
+	call system_endpoint_tx(endpoint, 4, "ATZ\n")
+	
+end
 
 event attributes_value(connection, reason, handle, offset, value_len, value_data)
 
