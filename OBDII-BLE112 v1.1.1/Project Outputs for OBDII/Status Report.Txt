@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [OBDII.PrjPCB]
+   Generated File[OBDII-Ist-RoundHoles.TXT]
+   Generated File[OBDII-Ist-SlotHoles.TXT]
+   Generated File[OBDII-Ist.LDP]
+   Generated File[OBDII-Ist.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:15:16 On 17.02.2014
