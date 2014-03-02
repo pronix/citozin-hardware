@@ -4,6 +4,6 @@
     <config in="evkit_conn_slave_gatt_server-config.xml" />
     <gatt in="gatt.xml" />
     <hardware in="evkit_hardware.xml" />
-    <script in="evkit_conn_slave_gatt_server.bgs" />
+    <script in="OBD-BLE-commun.bgs" />
     <image out="out.hex" />
 </project>

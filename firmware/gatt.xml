@@ -5,16 +5,25 @@
       <description>Generic Access Profile</description>
       <characteristic uuid="2a00">
         <properties read="true" const="true" />
-        <value>ET Cable Replacement Demo</value>
+        <value>Cable Replacement</value>
       </characteristic>
     </service>
     
     <service uuid="0bd51666-e7cb-469b-8e4d-2742f1ba77cc">
         <description>Cable replacement service</description>        
-        <characteristic uuid="e7add780-b042-4876-aae1-112855353cc1" id="xgatt_OBD">
+        <characteristic uuid="e7add780-b042-4876-aae1-112855353cc1" id="xgatt_rx">
             <description>Data</description>
-            <properties write="true" indicate="true" />
-            <value variable_length="true" length="20" type="user" />
+            <properties read="true" notify="true" />
+            <value length="20" variable_length="true"/>
+        </characteristic>
+    </service>
+	
+    <service uuid="1bd51666-e7cb-469b-8e4d-2742f1ba77cc">
+        <description>Cable replacement service</description>        
+        <characteristic uuid="e6add780-b042-4876-aae1-112855353cc1" id="xgatt_tx">
+            <description>command</description>
+            <properties read="true" write="true" write_no_response="true"/>
+            <value length="20" variable_length="true"/>
         </characteristic>
     </service>    
 </configuration>
