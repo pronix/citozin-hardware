@@ -2,7 +2,7 @@ dim result
 dim endpoint
 dim in(20) # endpoint data in
 dim in_len
-dim emptyBuf(1)
+#dim emptyBuf(1)
 dim connected
 
 
@@ -18,12 +18,10 @@ end
 
 event connection_status(connection, flags, address, address_type, conn_interval, timeout, latency, bonding)
 	if connected = 0 then
-		call system_endpoint_tx(endpoint, 4, "ATI\r")    
 		#call system_endpoint_tx(endpoint, 11, "ATPP0CSV45\n")
 		#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-		emptyBuf(0:1) = $0
-		call attributes_write(xgatt_rx, 0, 0, emptyBuf(0:0))
-
+		#emptyBuf(0:1) = $0
+		#call attributes_write(xgatt_rx, 0, 0, emptyBuf(0:0))
 		#enable the watermarks for RX here
 		call system_endpoint_set_watermarks(endpoint, 1, $ff) # set RX watermark
 
@@ -31,10 +29,29 @@ event connection_status(connection, flags, address, address_type, conn_interval,
 	connected = 1	
 end
 
+event attributes_status(handle, flags)
+
+    if (flags = 1) then
+    
+       # #call system_endpoint_tx(endpoint, 57, "\n\r++ Local CCC set by remote side to start indications ++")
+       # #call system_endpoint_tx(endpoint, 46, "\n\r++ Transparent data exchange can start ++\n\n\r")
+	   # #call system_endpoint_tx(endpoint, 1, "\n")
+	   call system_endpoint_tx(endpoint, 4, "ATZ\r") 
+	   #call system_endpoint_tx(endpoint, 5, "ATe1\r")
+      # call system_endpoint_set_watermarks(endpoint, 1, $ff) # set RX watermark
+	#else 
+	  # call system_endpoint_set_watermarks(endpoint, 0, $ff) 
+   end if
+
+end
+
 event attributes_value(connection, reason, handle, offset, value_len, value_data)
 
 	if handle=xgatt_tx then
 		call system_endpoint_tx(endpoint, value_len, value_data(0:value_len))
+		#call system_endpoint_set_watermarks(endpoint, 1, $ff)
+	#else
+		#call system_endpoint_set_watermarks(endpoint, 0, $ff)
 	end if
     
 end
@@ -50,20 +67,7 @@ end
     
 # end
 
-# event attributes_status(handle, flags)
 
-    # if (handle = xgatt_resp) && (flags = 2) then
-    
-       # #call system_endpoint_tx(endpoint, 57, "\n\r++ Local CCC set by remote side to start indications ++")
-       # #call system_endpoint_tx(endpoint, 46, "\n\r++ Transparent data exchange can start ++\n\n\r")
-	   # #call system_endpoint_tx(endpoint, 1, "\n")
-	   # call system_endpoint_tx(endpoint, 5, "ATe0\r")
-       # call system_endpoint_set_watermarks(endpoint, 1, $ff) # set RX watermark
-	# else 
-	   # call system_endpoint_set_watermarks(endpoint, 0, $ff) 
-    # end if
-
-# end
 
 event system_endpoint_watermark_rx(curr_endpoint, size)
     if curr_endpoint = endpoint then
@@ -84,12 +88,13 @@ event connection_disconnected(conn, reas)
     #call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
 	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
 	call system_endpoint_tx(endpoint, 5, "ATLP\r")
+	#call attributes_write(xgatt_rx+2,0,1,0)
 	#call system_reg_write($70fa, 59)
     #call system_endpoint_tx(endpoint, 22, "\n\n\r-- Disconnected --\n")
     call system_endpoint_set_watermarks(endpoint, 0, 0) # disable watermarks
     #call gap_set_adv_data(1,9,7)
-	emptyBuf(0:1) = $0
-    call attributes_write(xgatt_rx, 0, 0, emptyBuf(0:0))
-    call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
+	#emptyBuf(0:1) = $0
+    #call attributes_write(xgatt_rx, 0, 0, emptyBuf(0:0))
+	call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
     
 end

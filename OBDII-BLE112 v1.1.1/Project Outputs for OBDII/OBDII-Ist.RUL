@@ -1,10 +1,10 @@
-DRC Rules Export File for PCB: E:\BLE\Documentations\BLE112\OBDII-Ist.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_PoligonGND_All|Scope=Board|Minimum=11.81
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Width|RuleName=Width_12V|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=Width_VBAT|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=Width_+5V|Scope=Board|Minimum=7.87
+DRC Rules Export File for PCB: E:\BLE\Documentations\BLE112\OBDII-BLE112 v1.1.1\OBDII-Ist.PcbDoc
 RuleKind=Width|RuleName=Width_GND|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_+5V|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_VBAT|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_12V|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_PoligonGND_All|Scope=Board|Minimum=11.81

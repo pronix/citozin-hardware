@@ -10,7 +10,7 @@
 Все файлы в формате 2.4 English (Inch).
 OBDII-Ist.GM2 - контуры для скрайбирования.
 Список SMD-компонентов для монтажа в файле BOM.xls
-
+Расположение компонентов в файлах "Top Assembly.pdf", "Bottom Assembly.pdf", "Bottom 3D.png", "Top 3D.png"
 
 
 ----
