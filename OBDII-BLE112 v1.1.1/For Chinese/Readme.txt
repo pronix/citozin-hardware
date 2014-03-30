@@ -1,5 +1,5 @@
 Boards bilateral.
-Title: Citozin-OBDII v1.1.1
+Title: Citozin v1.1.1
 
 Quantity: 3
 Solder mask color: Blue
@@ -17,7 +17,7 @@ Arrangement of components for assemble is located in the files: "Top Assembly.pd
 PCB consist of two part.
 Assembly scheme of PCB  is located in "Assembly scheme.png"
 
-Body of quartz resonator must not!!! touch the  pins of DEV-09911 connector.
+Body of quartz resonator must !!!not!!! touch the  pins of J1(DEV-09911 connector).
 
 Assembly steps:
 1. Divide  part A and part B of each other 
