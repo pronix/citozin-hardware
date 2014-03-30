@@ -15,7 +15,9 @@ Arrangement of components for assemble is located in the files: "Top Assembly.pd
 
 
 PCB consist of two part.
-Assembly scheme of PCB  is located in "Assembly scheme.png" 
+Assembly scheme of PCB  is located in "Assembly scheme.png"
+
+Body of crystal oscillator must not!!! touch the  pins of DEV-09911 connector.
 
 
 ----
