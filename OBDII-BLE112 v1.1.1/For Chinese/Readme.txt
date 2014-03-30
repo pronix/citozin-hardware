@@ -17,7 +17,16 @@ Arrangement of components for assemble is located in the files: "Top Assembly.pd
 PCB consist of two part.
 Assembly scheme of PCB  is located in "Assembly scheme.png"
 
-Body of crystal oscillator must not!!! touch the  pins of DEV-09911 connector.
+Body of quartz resonator must not!!! touch the  pins of DEV-09911 connector.
+
+Assembly steps:
+1. Divide  part A and part B of each other 
+2. Solder all components except J2, J3.
+3. Solder J2, J3 (M52-040023V2045)on part B.
+4. Solder J1(DEV-09911) on part B.
+5. Mount part A on J2, J3 and solder it.
+6. Solder pad 2 and 3 of J7(Solder Jumper Switcher).
+7. Don't solder J6(Solder Jumper).
 
 
 ----
