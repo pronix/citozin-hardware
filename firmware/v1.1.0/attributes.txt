@@ -1,0 +1,2 @@
+xgatt_rx 6
+xgatt_tx 11

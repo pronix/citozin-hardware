@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <service uuid="1800">
+      <description>Generic Access Profile</description>
+      <characteristic uuid="2a00">
+        <properties read="true" const="true" />
+        <value>Citozin-OBDII v1.1</value>
+      </characteristic>
+    </service>
+    
+    <service type="primary" uuid="8f544040-af98-11e3-8b63-69746f7a696e">
+        <description>Citozin-OBDII RX Service</description>        
+        <characteristic uuid="a2f371c0-af98-11e3-9563-69746f7a696e" id="xgatt_rx">
+            <description>Data</description>
+            <properties read="true" notify="true" />
+            <value length="20" variable_length="true"/>
+        </characteristic>
+    </service>
+	
+    <service uuid="adc97e00-af98-11e3-8763-69746f7a696e">
+        <description>Citozin-OBDII TX Service</description>        
+        <characteristic uuid="b55b5bc0-af98-11e3-9163-69746f7a696e" id="xgatt_tx">
+            <description>Сommand</description>
+            <properties read="true" write="true" write_no_response="true"/>
+            <value length="20" variable_length="true"/>
+        </characteristic>
+    </service>    
+</configuration>
