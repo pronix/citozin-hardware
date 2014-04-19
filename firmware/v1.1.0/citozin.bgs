@@ -87,7 +87,7 @@ event connection_disconnected(conn, reas)
     connected = 0
     #call system_endpoint_tx(endpoint, 11, "ATPP0CSV68\n")
 	#call system_endpoint_tx(endpoint, 9, "ATPP0CON\n")
-	call system_endpoint_tx(endpoint, 5, "ATLP\r")
+	#call system_endpoint_tx(endpoint, 5, "ATLP\r")
 	#call attributes_write(xgatt_rx+2,0,1,0)
 	#call system_reg_write($70fa, 59)
     #call system_endpoint_tx(endpoint, 22, "\n\n\r-- Disconnected --\n")
