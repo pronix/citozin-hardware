@@ -3,7 +3,7 @@ Citozin v1.1
 
 Scantool for vachine on base of ELM327 v2.0  with BLE112-A to communicate with iPhone or Android supported Bluetooth LE (Bluetooth Smart).
 
-	+Standby mode
+	+Low Power mode
 	+SAE J1850 PWM (41.6 kbaud)
 	+SAE J1850 VPW (10.4 kbaud)
 	+ISO 9141-2 (5 baud init, 10.4 kbaud)
