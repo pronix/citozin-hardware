@@ -1,0 +1,3 @@
+xgatt_rx 6
+xgatt_tx 11
+xgatt_temperature_celsius 15
