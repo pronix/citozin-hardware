@@ -16,4 +16,5 @@ Scantool for vachine on base of ELM327 v2.0  with BLE112-A to communicate with i
 	+SAE J1939
 	
 ELM327 and BLE112 communicate via UART (9600 baud, 8 data bit, no parity, 1 stop bit, no Flow Control).
+
 	+Temperature of BLE112 can be obtain
